@@ -1,23 +1,23 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
-const bookSchema = new mongoose.Schema(
-    {
-        title: {
-            type: String,
-            required: true,
-        },
-        author: {
-            type: String,
-            required: true,
-        },
-        publishYear: {
-            type: Number,
-            required: true,
-        },
+const bookSchema = mongoose.Schema(
+  {
+    title: {
+      type: String,
+      required: true,
     },
-    {
-        timestamps: true, // This enables createdAt and updatedAt fields
-    }
+    author: {
+      type: String,
+      required: true,
+    },
+    publishYear: {
+      type: Number,
+      required: true,
+    },
+  },
+  {
+    timestamps: true,
+  }
 );
 
-export const Book = mongoose.model('Book', bookSchema); // Model name should be 'Book'
+export const Book = mongoose.model('Book', bookSchema);
