@@ -2,7 +2,7 @@ import React from 'react'
 import {Routes,Route} from 'react-router-dom'
 import Home from './pages/Home'
 import CreateBooks from './pages/CreateBooks'
-import EditBooks from './pages/EditBooks'
+import EditBook from './pages/EditBook'
 import ShowBook from './pages/ShowBook'
 import DeleteBook from './pages/DeleteBook'
 // created routes for the react app
