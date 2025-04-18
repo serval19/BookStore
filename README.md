@@ -1,5 +1,6 @@
 # MERN Stack project
-This project uses the mern stack (mongodb,express.js,react.js and node.js) for building a full stack application. This project also uses tailwind css.
+This project uses the mern stack (mongodb,express.js,react.js and node.js) for building a full stack application. This project also uses tailwind css. <br/>
+Hosted at : https://book-store-mernapp-ui.vercel.app/
 ## How to run?
 1)Clone the repo<br/>
 2)go to backend folder and then run `npm run dev`. Make sure that axios and react router dom packages are installed<br/>
